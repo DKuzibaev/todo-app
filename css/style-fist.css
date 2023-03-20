@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #242424;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+  }
+  
+  #dmb {
+    position: relative;
+    width: 20%;
+    height: 20%;
+  }
+
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+  
+  h1 {
+    color: #fdfdfd;
+    font-size: 4rem;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid rgb(189, 148, 0);
+    border-radius: 0.6em;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+  
+  .first {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px rgb(189, 148, 0) inset;
+  }
+  
